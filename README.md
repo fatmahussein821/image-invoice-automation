@@ -23,12 +23,3 @@ An **AI-powered invoice extraction workflow** that receives invoice images throu
 - Airtable
 - JavaScript JSON parsing
 
-## Setup
-
-1. Import `IMAGEINVOICE.json` into n8n.
-2. Configure the Telegram bot credential and Airtable connection.
-3. Configure the AI model credential and verify image passthrough support.
-4. Align the Airtable field names with the mapping in the workflow.
-5. Test with representative invoice images and confirm extracted values before production use.
-
-The exported workflow contains placeholders and should be reviewed for field-name consistency before activation.
